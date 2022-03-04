@@ -1,6 +1,6 @@
 .content-main {
   width: 60%;
-  height: 100%;
+  min-height: 100%;
   border-right: 1px solid #242731;
   box-sizing: border-box;
   padding: 20px;
@@ -35,7 +35,7 @@
 }
 .small-banner {
   background-color: #abe8ff;
-  padding: 25px;
+  padding: 35px 25px;
   margin-top: 35px;
   border-radius: 10px;
   color: black;
@@ -60,7 +60,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 15px 0;
+  margin: 25px 0;
 }
 .reward-left :first-child {
   font-weight: 400;
@@ -93,7 +93,7 @@
 .fee {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 15px;
+  grid-gap: 25px;
 }
 .fee .left,
 .right {
@@ -140,7 +140,7 @@
 .buttons {
   display: flex;
   align-items: center;
-  margin-top: 20px;
+  margin: 25px 0;
 }
 .buttons h2 {
   font-weight: 400;
