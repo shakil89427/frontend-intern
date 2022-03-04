@@ -22,8 +22,10 @@ const Contents = () => {
       .then((res) => res.json())
       .then((data) => setFetchedData(data.data));
   }, []);
+
   return (
     <div className="content-main">
+      {/* Top container */}
       <div className="content-top">
         <h3 className="section">Section</h3>
         <div className="content-top-right">
@@ -33,6 +35,7 @@ const Contents = () => {
         </div>
       </div>
 
+      {/* Content small banner */}
       <div className="small-banner">
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, earum.
@@ -41,6 +44,7 @@ const Contents = () => {
         <img className="small-logo" src={smallLogo} alt="" />
       </div>
 
+      {/* Reward Part */}
       <div className="reward">
         <div className="reward-left">
           <h4>Your rewards</h4>
@@ -55,6 +59,7 @@ const Contents = () => {
         </div>
       </div>
 
+      {/* Fee part */}
       <div className="fee">
         <div className="left">
           <div className="head">
@@ -91,6 +96,8 @@ const Contents = () => {
           </div>
         </div>
       </div>
+
+      {/* Data Tabs part */}
       <div className="tabs">
         <div className="buttons">
           <h2
@@ -112,8 +119,9 @@ const Contents = () => {
           <p>USER ACCOUNT</p>
           <p>REFFERAL EARNINGS</p>
         </div>
+
+        {/* Data Table */}
         <div className="table-data">
-          {console.log(fetcheddata)}
           <div className="flexed">
             <img className="asset" src={fetcheddata[dataState]?.img} alt="" />
             <div className="">

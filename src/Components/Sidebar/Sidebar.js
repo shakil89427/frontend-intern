@@ -21,6 +21,7 @@ const Sidebar = () => {
   return (
     <div className="sidebar-main">
       <div>
+        {/* Top Profile */}
         <div className="sidebar-header">
           <div className="profile-part">
             <div className="profile-image">N</div>
@@ -28,6 +29,8 @@ const Sidebar = () => {
           </div>
           <ArrowLeft />
         </div>
+
+        {/* Side  buttons */}
         <div className="sidebar-body">
           <div className="sidebar-body-item">
             <House /> <p>Home</p>
@@ -70,6 +73,8 @@ const Sidebar = () => {
           </div>
         </div>
       </div>
+
+      {/* Sidebar footer */}
       <div>
         <div className="sidebar-body-footer">
           <div className="first">
