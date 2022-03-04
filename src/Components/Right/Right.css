@@ -1,3 +1,91 @@
 .right-main {
   min-height: 100%;
+  padding: 20px;
+  width: 23%;
+  box-sizing: border-box;
+}
+.right-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.dropdown-main {
+  display: flex;
+  align-items: center;
+  padding: 5px 15px;
+  background-color: #353945;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.select-main {
+  background: none;
+  border: none;
+  color: white;
+  outline: none;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.select-main option {
+  background-color: #353945;
+}
+.dropdown-2 {
+  border: 1px solid #3772ff;
+}
+.top-icon {
+  padding: 2px;
+  color: #3772ff;
+}
+.custom-link {
+  display: flex;
+  align-items: center;
+  margin: 25px 0;
+}
+.custom-link h2 {
+  margin-left: 15px;
+  font-weight: 400;
+}
+.right-main input {
+  width: 100%;
+  background-color: #242731;
+  padding: 15px;
+  box-sizing: border-box;
+  margin: 20px 0;
+  border: none;
+  outline: none;
+  color: #808191;
+  font-size: small;
+  font-weight: bold;
+  border-radius: 10px;
+}
+.link-buttons {
+  display: flex;
+  align-items: center;
+}
+.custom-right {
+  display: flex;
+  width: fit-content;
+  align-items: center;
+  margin-right: 20px;
+  background-color: #3772ff;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.custom-right :first-child {
+  margin-right: 5px;
+}
+.cancel {
+  display: flex;
+  width: fit-content;
+  align-items: center;
+  margin-right: 20px;
+  border: 1px solid #242731;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.cancel :first-child {
+  margin-right: 10px;
 }

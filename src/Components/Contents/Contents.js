@@ -12,6 +12,11 @@ const Contents = () => {
   const [fetcheddata, setFetchedData] = useState([]);
   const [dataState, setDataState] = useState(0);
 
+  const copyText = () => {
+    navigator.clipboard.writeText("https://unitexchange.design");
+    alert("Text copied");
+  };
+
   useEffect(() => {
     fetch("https://raw.githubusercontent.com/akshita151199/APIs/main/data")
       .then((res) => res.json())
@@ -65,11 +70,7 @@ const Contents = () => {
               defaultValue="https://unitexchange.design"
               type="text"
             />
-            <Front
-              onClick={() =>
-                navigator.clipboard.writeText("https://unitexchange.design")
-              }
-            />
+            <Front onClick={copyText} />
           </div>
         </div>
         <div className="right">
@@ -86,11 +87,7 @@ const Contents = () => {
               defaultValue="https://unitexchange.design"
               type="text"
             />
-            <Front
-              onClick={() =>
-                navigator.clipboard.writeText("https://unitexchange.design")
-              }
-            />
+            <Front onClick={copyText} />
           </div>
         </div>
       </div>

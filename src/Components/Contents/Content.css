@@ -47,6 +47,7 @@
   padding: 2px 10px;
   margin-top: 10px;
   border-radius: 5px;
+  cursor: pointer;
 }
 .small-logo {
   position: absolute;

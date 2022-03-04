@@ -2,7 +2,14 @@
   background-color: black;
   color: white;
 }
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 5vh;
+  background-color: #3772ff;
+}
 .body-contents {
-  min-height: 100vh;
+  min-height: 95vh;
   display: flex;
 }
